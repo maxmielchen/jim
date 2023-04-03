@@ -1,3 +1,6 @@
+pub mod cli;
+use clap::Parser;
+
 fn main() {
-    println!("Hello, world!");
+    let _cli = cli::jim_cli::Jim::parse();
 }
