@@ -101,3 +101,6 @@ tags
 [._]*.un~
 
 .vscode
+
+/target
+Cargo.lock
