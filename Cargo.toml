@@ -2,5 +2,11 @@
 name = "jim"
 version = "1.0.0"
 edition = "2021"
+authors = ["Max Mielchen"]
+description = "A command line tool to help you create and manage your gitignore"
+readme = "README.md"
+repository = "https://github.com/maxmielchen/jim/"
+license = "Apache-2.0"
 
 [dependencies]
+clap = { version = "4.2.1", features = ["derive"] }
